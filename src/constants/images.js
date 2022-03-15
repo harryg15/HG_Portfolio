@@ -35,9 +35,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-import RealLogo from '../assets/H.G Real.png'
-import PortfolioLogo from '../assets/PortfolioLogo.png'
-import PortfolioHeader from '../assets/PortfolioHeader.png'
+import navLogo from '../assets/navLogo.png'
+import portfolioLogo from '../assets/portfolioLogo.png'
+import portfolioHeader from '../assets/portfolioHeader.png'
 
 export default {
   email,
@@ -73,7 +73,7 @@ export default {
   nb,
   skype,
   spotify,
-  RealLogo,
-  PortfolioLogo,
-  PortfolioHeader,
+  navLogo,
+  portfolioLogo,
+  portfolioHeader
 };
