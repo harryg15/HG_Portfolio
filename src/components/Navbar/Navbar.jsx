@@ -12,7 +12,7 @@ const Navbar = () => {     // classname="app__navbar" with double underscore bec
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.portfolioLogo} alt="logo"/>
+        <img src={images.portfoliologo} alt="logo"/>
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (  // when opening menu icon
