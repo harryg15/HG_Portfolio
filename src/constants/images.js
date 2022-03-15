@@ -39,6 +39,8 @@ import navLogo from '../assets/navLogo.png'
 import portfolioLogo from '../assets/portfolioLogo.png'
 import portfolioHeader from '../assets/portfolioHeader.png'
 
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
+
 export default {
   email,
   mobile,
