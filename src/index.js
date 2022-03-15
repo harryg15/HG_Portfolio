@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'  // way for React to understand JSX just like HTML 
+import ReactDOM from 'react-dom'  // help connects with html file (helps it show up)
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import App from './App';  //imports app component 
+import './index.css'; //imports css file
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'))  // renders React App component in root file
+//this root file is part of the div in index.html
+//so effectively you're importing all the react elements of your website in your App.js
+
+//app & document = like saying im going to render "app" WITH wherever 'root' id is on html file
