@@ -35,9 +35,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-import navlogo from '../assets/navLogo.png'
-import portfoliologo from '../assets/portfolioLogo.png'
-import portfolioheader from '../assets/portfolioHeader.png'
+import navlogo from '../assets/navlogo.png'
+import portfoliologo from '../assets/portfoliologo.png'
+import portfolioheader from '../assets/portfolioheader.png'
 
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 
