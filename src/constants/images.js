@@ -75,5 +75,5 @@ export default {
   spotify,
   RealLogo,
   PortfolioLogo,
-  PortfolioHeader
+  PortfolioHeader,
 };
